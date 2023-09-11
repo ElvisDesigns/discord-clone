@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eecac29b-a960-4ffb-bf0d-76f00faf66dc" name="Changes" comment="initial setup for db and form">
-      <change afterPath="$PROJECT_DIR$/app/api/uploadthing/core.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/uploadthing/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/file-upload.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/uploadthing.ts" afterDir="false" />
+    <list default="true" id="eecac29b-a960-4ffb-bf0d-76f00faf66dc" name="Changes" comment="add image upload for server">
+      <change afterPath="$PROJECT_DIR$/app/api/servers/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/current-profile.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/modals/initial-modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/modals/initial-modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -131,7 +127,7 @@
       <workItem from="1693777630172" duration="476000" />
       <workItem from="1694047131907" duration="1507000" />
       <workItem from="1694095295171" duration="10113000" />
-      <workItem from="1694436327262" duration="2706000" />
+      <workItem from="1694436327262" duration="6551000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -261,7 +257,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694111419219</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add image upload for server">
+      <option name="closed" value="true" />
+      <created>1694440548277</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1694440548277</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add image upload for server">
+      <option name="closed" value="true" />
+      <created>1694440554332</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1694440554332</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +296,8 @@
     <MESSAGE value="created sign up and sign in" />
     <MESSAGE value="added different color for dark mode" />
     <MESSAGE value="initial setup for db and form" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial setup for db and form" />
+    <MESSAGE value="add image upload for server" />
+    <option name="LAST_COMMIT_MESSAGE" value="add image upload for server" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
