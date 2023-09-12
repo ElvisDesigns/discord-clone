@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eecac29b-a960-4ffb-bf0d-76f00faf66dc" name="Changes" comment="add image upload for server">
-      <change afterPath="$PROJECT_DIR$/app/api/servers/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/current-profile.ts" afterDir="false" />
+    <list default="true" id="eecac29b-a960-4ffb-bf0d-76f00faf66dc" name="Changes" comment="add sidebar navigation">
+      <change afterPath="$PROJECT_DIR$/app/(main)/(routes)/servers/[serverid]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(main)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/action-tooltip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navigation/navigation-action.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navigation/navigation-item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/navigation/navigation-sidebar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/modals/initial-modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/modals/initial-modal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -127,7 +130,9 @@
       <workItem from="1693777630172" duration="476000" />
       <workItem from="1694047131907" duration="1507000" />
       <workItem from="1694095295171" duration="10113000" />
-      <workItem from="1694436327262" duration="6551000" />
+      <workItem from="1694436327262" duration="12293000" />
+      <workItem from="1694523847115" duration="995000" />
+      <workItem from="1694549652090" duration="2681000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -273,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694440554332</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add initial server create API">
+      <option name="closed" value="true" />
+      <created>1694455319262</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1694455319262</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +310,9 @@
     <MESSAGE value="added different color for dark mode" />
     <MESSAGE value="initial setup for db and form" />
     <MESSAGE value="add image upload for server" />
-    <option name="LAST_COMMIT_MESSAGE" value="add image upload for server" />
+    <MESSAGE value="add initial server create API" />
+    <MESSAGE value="add sidebar navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sidebar navigation" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
