@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eecac29b-a960-4ffb-bf0d-76f00faf66dc" name="Changes" comment="add sidebar navigation">
-      <change afterPath="$PROJECT_DIR$/app/(main)/(routes)/servers/[serverid]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(main)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/action-tooltip.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/navigation-action.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/navigation-item.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/navigation-sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modals/create-server-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/providers/modal-provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/use-modal-store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/mode-toggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/mode-toggle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/navigation-action.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/navigation-action.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/navigation-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/navigation-item.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/navigation-sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/navigation-sidebar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,24 +57,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ElvisG/WebstormProjects/discord-clone&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\ElvisG\\WebstormProjects\\discord-clone\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/ElvisG/WebstormProjects/discord-clone/components/modals",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MTRecommendedPluginsConfigurable",
+    "ts.external.directory.path": "C:\\Users\\ElvisG\\WebstormProjects\\discord-clone\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -80,6 +84,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ElvisG\WebstormProjects\discord-clone\components\modals" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ElvisG\WebstormProjects\discord-clone\discord-clone\app\(main)\(routes)" />
       <recent name="C:\Users\ElvisG\WebstormProjects\discord-clone\discord-clone\app\(main)" />
@@ -132,7 +139,7 @@
       <workItem from="1694095295171" duration="10113000" />
       <workItem from="1694436327262" duration="12293000" />
       <workItem from="1694523847115" duration="995000" />
-      <workItem from="1694549652090" duration="2681000" />
+      <workItem from="1694549652090" duration="9140000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -286,7 +293,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694455319262</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add sidebar navigation">
+      <option name="closed" value="true" />
+      <created>1694552454401</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1694552454401</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add sidebar navigation">
+      <option name="closed" value="true" />
+      <created>1694552591489</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1694552591489</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
